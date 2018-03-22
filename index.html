@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="reset" href="./css/reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Muny Click</title>
+  </head>
+  <body>
+<!-- ======================================================= -->
+<!-- Click Object -->
+<!-- ======================================================= -->
+    <div class="manual-income">
+      <h1>Get Muny</h1>
+      <button id="get-muny" onclick="getMuns(1)" type="button" name="button"><img src="./img/coin.png" alt=""></button>
+    </div>
+    <div id="current-muns">0</div>
+    <div id="income-ps">0</div>
+<!-- ======================================================= -->
+<!-- Upgrades Help -->
+<!-- ======================================================= -->
+    <h2>Worker Help</h2>
+    <div class="worker-help">
+      <p>Digger: </p><span id="digger">0</span>
+      <p>Miner: </p><span id="miner">0</span>
+      <p>Dozer: </p><span id="dozer">0</span>
+      <p>Excavator: </p><span id="excavator">0</span>
+    </div>
+    <h2>Worker Numbers</h2>
+    <div class="worker-numbers">
+      <p>Digger: </p><span id="digger-num">0</span>
+      <p>Miner: </p><span id="miner-num">0</span>
+      <p>Dozer: </p><span id="dozer-num">0</span>
+      <p>Excavator: </p><span id="excavator-num">0</span>
+    </div>
+<!-- ======================================================= -->
+<!-- Upgrades -->
+<!-- ======================================================= -->
+    <div>
+      <h2>Upgrades</h2>
+      <div class="upgrades">
+        <button onclick="buyDigger()">Digger</button><span id="digger-cost">1</span>
+        <button onclick="buyMiner()">Miner</button><span id="miner-cost">15</span>
+        <button onclick="buyDozer()">Dozer</button><span id="dozer-cost">50</span>
+        <button onclick="buyExcavator()">Excavator</button><span id="excavator-cost">500</span>
+      </div>
+    </div>
+<!-- ======================================================= -->
+<!-- Javascript -->
+<!-- ======================================================= -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./script.js"></script>
+  </body>
+</html>

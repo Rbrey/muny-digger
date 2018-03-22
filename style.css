@@ -1,0 +1,51 @@
+/* ========================================== */
+/* Grid Set Up */
+/* ========================================== */
+body {
+  display: grid;
+  justify-content: center;
+}
+/* ========================================== */
+/* Customization */
+/* ========================================== */
+h1, h2 {
+  text-align: center;
+}
+.manual-income {
+  display: grid;
+  justify-content: center;
+}
+#get-muny {
+  border-radius: 50%;
+  border-style: none;
+}
+#current-muns, #income-ps {
+  height: 50px;
+  width: 100%;
+  margin: 5px;
+  border: solid black 3px;
+  text-align: center;
+  font-size: 45px;
+}
+.game-state {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0px 10px 0px;
+}
+.worker-help, .worker-numbers {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  font-size: 20px;
+}
+.upgrades {
+  display: flex;
+  justify-content: space-between;
+}
+.upgrades button {
+  color: gold;
+  background-color: gray;
+  font-weight: bold;
+  margin: 0px 10px 0px 10px;
+}
